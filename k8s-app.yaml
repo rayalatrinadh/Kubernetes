@@ -25,7 +25,7 @@ spec:
           image: ''
           imagePullPolicy: IfNotPresent
           ports:
-            - containerPort: 9096
+            - containerPort: 9094
 ---
 
 apiVersion: v1
@@ -39,5 +39,5 @@ spec:
   ports:
     - protocol: TCP
       port: 9090
-      targetPort: 9096
+      targetPort: 9094
   type: NodePort
