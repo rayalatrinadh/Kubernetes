@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
         - name: user-service-container
-          image: 'user-service:1.0'
+          image: ''
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 9096
